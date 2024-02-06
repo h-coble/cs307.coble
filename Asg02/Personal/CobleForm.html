@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Make an Appointment with Hayden</title>
+        <link rel = "icon" type = "image/x-icon" href = "images/logo.png">
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <header>
+            <h1>Hayden's Page</h1>
+        </header>
+        <nav>
+            <p>
+                &nbsp; <a href="index.html">Home</a> &nbsp; &#9475; &nbsp;
+                <a href="index.html#Skills">Skills</a> &nbsp; &#9475; &nbsp;
+                <a href="CobleRelative.html">Interests</a> &nbsp; &#9475; &nbsp;
+                <a href="index.html#Contact">Contact</a> &nbsp; &#9475; &nbsp;
+                <a href = "CobleForm.html">Make An Appointment</a> &nbsp;
+            </p>
+        </nav>
+        <main>
+            <form action = "CobleHome1.html" method = "POST">
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <label for ="fname">First Name:&nbsp;</label>
+                    <input type="text" id="fname"> <br>
+
+                    <label for = "lname">Last&nbsp;Name:&nbsp;</label>
+                    <input type="text" id="lname"> <br>
+
+                    <label for = "aptdate">Appointment Date:</label>
+                    <input type = "date" id ="aptdate">
+
+                    <label for = "apttime">&nbsp;Time:</label>
+                    <input type="time" id = "apttime"> <br>
+                    
+                    <label for = "major">Major:&nbsp;</label>
+                    <select name = "dropdown" id = "major">
+                        <option value = "Computer Science">Computer Science</option>
+                        <option value = "Mathematics">Mathematics</option>
+                        <option value = "Other">Other</option>
+                    </select>
+                    <input type = "submit" name = "submit" value = "Submit">
+                </fieldset>
+            </form>
+        </main>
+        <footer></footer>
+    </body>
+
+</html>
