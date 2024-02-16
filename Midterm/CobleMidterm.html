@@ -33,13 +33,15 @@
             <div id = "feat">
                 <h2>Featured Trips</h2>
                 <p>Take a look at our currently featured trips below.</p>
-                <!--https://pixabay.com/photos/nashville-fireworks-new-years-eve-936399/ -->
-                <a href = "CobleMidNewYear.html"><img src= "images/nye.jpg" width = "640" height ="427" alt = "Photo of Nashville on New Year's Eve"></a>
-                <!-- https://pixabay.com/photos/seattle-space-needle-skyline-6093144/ -->
-                <a href = "CobleMidSpringBreak.html"><img src= "images/sb.jpg" width = "640" height ="427" alt = "Photo of Seattle Skyline"></a>
-                <br>
-                <p><i>Photos courtesy of Pixabay users <a href = "https://pixabay.com/photos/nashville-fireworks-new-years-eve-936399/" target = "_blank">djgmix</a>
-                     and <a href = "https://pixabay.com/photos/seattle-space-needle-skyline-6093144/" target = "_blank">debannja</a></i></p>
+                <figure>
+                    <!--https://pixabay.com/photos/nashville-fireworks-new-years-eve-936399/ -->
+                    <a href = "CobleMidNewYear.html"><img src= "images/nye.jpg" width = "640" height ="427" alt = "Photo of Nashville on New Year's Eve"></a>
+                    <!-- https://pixabay.com/photos/seattle-space-needle-skyline-6093144/ -->
+                    <a href = "CobleMidSpringBreak.html"><img src= "images/sb.jpg" width = "640" height ="427" alt = "Photo of Seattle Skyline"></a>
+                    <br>
+                    <figcaption><i>Photos courtesy of Pixabay users <a href = "https://pixabay.com/photos/nashville-fireworks-new-years-eve-936399/" target = "_blank">djgmix</a>
+                        and <a href = "https://pixabay.com/photos/seattle-space-needle-skyline-6093144/" target = "_blank">debannja</a></i></figcaption>
+                </figure>
             </div>
             <br>
             <div id = "info_form">
@@ -56,16 +58,14 @@
                         <label for = "email">Email:&nbsp;</label>
                         <input type = "email" id = "email">
                         
-                        
                         <br>
 
                         <label>I would like more info about:</label>
-                            <input type="radio" id="NYE" name="form_info" value="Nashville">
-                            <label for="NYE">New Year's Trip</label> 
-                            <input type="radio" id="SB" name="form_info" value="Seattle">
-                            <label for="SB">Spring Break</label> 
-                            <input type="radio" id="BOTH" name="form_info" value="Both" checked>
-                            <label for="BOTH">Both</label> 
+                            <input type="checkbox" id="SB" name="SB_Box" value="true">
+                            <label for="SB">Spring Break</label>
+                            <input type="checkbox" id="NYE" name="NYE_Box" value="true">
+                            <label for="NYE">New Years Eve</label>
+
                         <br>
                         
                         <label for = "housing">Preference for Housing:&nbsp;</label>
@@ -74,13 +74,20 @@
                             <option value = "Hotel">Hotel</option>
                             <option value = "No Preference">No Preference</option>
                         </select>
+
                         <br>
-                        <input type="checkbox" id="opt-in" name="opt-in" value="true" checked>
-                        <label for="opt-in">I would like to recieve e-mail about future trips</label>
-                        
+
+                        <label>I would like to recieve emails about future trips: </label>
+                            <input type="radio" id="yes" name="form_info" value="true" checked>
+                            <label for="yes">Yes</label> 
+                            <input type="radio" id="no" name="form_info" value="false">
+                            <label for="no">No</label> 
+
                         <br>
+
                         <input type = "reset" name = "reset">
                         <input type = "submit" name = "submit" value = "Submit">
+
                     </fieldset>
                     <br>
                 </form>
