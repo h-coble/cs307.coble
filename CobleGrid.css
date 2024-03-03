@@ -1,0 +1,151 @@
+
+/* Container for grid elements */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 0px;
+  padding: 0px;
+}
+
+/*Welcome text/title for each page*/
+header
+{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start:1;
+	grid-row-end: 2;
+
+}
+
+/* nav pane */
+.link_menu
+{
+	
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start:2;
+	grid-row-end: 7;
+	
+}
+
+/* indexGrid */
+#Home
+{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start:2;
+	grid-row-end: 3;
+}
+
+
+
+#Interests
+{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+
+}
+
+#Skills
+{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+
+}
+
+#FavoriteNumbers
+{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 5;
+
+}
+
+#FavoriteCoffeeShop
+{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5;
+
+}
+
+#Contact
+{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 6;
+
+}
+/* End index exclusive sections */
+
+
+/* Form styles */
+#form_grid
+{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 7;
+
+}
+/* End Form Styles */
+
+
+/*Interests/Relative*/
+#Music
+{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start:2;
+	grid-row-end: 3;
+
+}
+
+#Video
+{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start:2;
+	grid-row-end: 3;
+}
+#LesPaul
+{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start:3;
+	grid-row-end: 4;
+
+}
+#Strat
+{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start:3;
+	grid-row-end: 4;
+}
+
+#Tech 
+{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start:4;
+	grid-row-end: 7;
+}
+
+/*Footer for all pages*/
+footer
+{	
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 7;
+	grid-row-end: 8;
+
+}
+
