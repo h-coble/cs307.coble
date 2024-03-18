@@ -4,12 +4,15 @@
         <title>MAX WELL Travel - Home</title>
         <meta charset="utf-8">
         <link rel="icon" type="image/x-icon" href="images/mwtlogo.png">
+        <link rel = "stylesheet" href = "CobleActivity.css">
     </head>
 
     <body>
         <header>
             <!-- Image created at https://express.adobe.com/express-apps/logo-maker/ -->
-            <a href = "CobleMidterm.html"> <img src = "images/mwtlogo.png" alt = "Maximum Wellness travel Logo" height = "100" width="100"></a>
+            <a href = "CobleMidterm.html" id="logo"> 
+                <img src = "images/mwtlogo.png" alt = "Maximum Wellness travel Logo" height = "100" width="100">
+            </a>
             <nav>
                 &nbsp; <a href = "CobleMidterm.html">Home</a> &nbsp; &#9475; &nbsp;
                 <a href="CobleMidNewYear.html">NYE</a> &nbsp; &#9475; &nbsp;
@@ -33,11 +36,26 @@
             <div id = "feat">
                 <h2>Featured Trips</h2>
                 <p>Take a look at our currently featured trips below.</p>
-                <figure>
+                <figure id = "fig_grid">
                     <!--https://pixabay.com/photos/nashville-fireworks-new-years-eve-936399/ -->
-                    <a href = "CobleMidNewYear.html"><img src= "images/nye.jpg" width = "640" height ="427" alt = "Photo of Nashville on New Year's Eve"></a>
                     <!-- https://pixabay.com/photos/seattle-space-needle-skyline-6093144/ -->
-                    <a href = "CobleMidSpringBreak.html"><img src= "images/sb.jpg" width = "640" height ="427" alt = "Photo of Seattle Skyline"></a>
+                    <div class = "link_container" id = "nash_grid_item">
+                        <a href = "CobleMidNewYear.html" >
+                            <img src= "images/nye.jpg" width = "640" height ="427" alt = "Photo of Nashville on New Year's Eve">
+                            <div class = "overlay">
+                                <div class = "text">Nashville</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class = "link_container" id = "seattle_grid_item">
+                        <a href = "CobleMidSpringBreak.html" class = "link_container">
+                            <img src= "images/sb.jpg" width = "640" height ="427" alt = "Photo of Seattle Skyline">
+
+                            <div class = "overlay">
+                                <div class = "text">Seattle</div>
+                            </div>
+                        </a>
+                    </div>
                     <br>
                     <figcaption><i>Photos courtesy of Pixabay users <a href = "https://pixabay.com/photos/nashville-fireworks-new-years-eve-936399/" target = "_blank">djgmix</a>
                         and <a href = "https://pixabay.com/photos/seattle-space-needle-skyline-6093144/" target = "_blank">debannja</a></i></figcaption>
