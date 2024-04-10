@@ -1,0 +1,78 @@
+/*Hayden Coble
+02/19/2024
+stylesAnalyze04.css and analyze04.html*/
+
+/*CSS Reset*/
+body,header,nav,main,h1,div,ul,li,h2,p{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+/*Impacts all styles found in body*/
+body {
+    padding: 2%;
+    background-color: #d1d1e0;
+}
+/* "  " in header*/
+header h1 {
+    font-size: 3em;
+    font-family: Georgia, Times, serif;
+    padding: 3%;
+    color: #47476b;
+} 
+
+/*Nav element styles*/
+nav {
+    background-color: #47476b;
+} 
+
+
+nav ul { margin: 0; text-align: center;} 
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em; 
+    font-family: Verdana, Arial, sans-serif; font-weight: bold;
+} 
+
+nav li a { display: block; color: #e3eaf8; padding: 0.5em 2em; text-decoration: none;}
+
+/*Main Styles*/
+main {
+    padding: 2%;
+    font-family: Geneva, Arial, sans-serif;
+    overflow: auto;
+}
+main a {
+    color: #47476b;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+main h3 {
+    padding-top: 2%;
+    font-size: 2em;
+}
+
+/*These style div sections with the respective name*/
+#css1, #css2, #css3 {
+    width: 30%;
+    float: left;
+    padding: 0 1%;
+}
+ 
+/*Styles the footer of the page*/
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #47476b;
+    padding: 1% 0;
+    border-top: 3px solid #47476b;
+    clear: left;
+}

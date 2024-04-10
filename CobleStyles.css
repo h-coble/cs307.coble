@@ -1,0 +1,134 @@
+.grid-container
+{
+	/*Background Color to spot errors with grid alignment*/
+	background-color: #ff06b5;
+}
+
+.grid-container > div
+{
+	background-color: #DEC791;
+	font-family: Verdana, Helvetica, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Anchors */
+a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000066;
+}
+
+/*lists that I want to have no bullets- nav pane */
+ul.none
+{
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+/* All other unordered lists */
+ul
+{
+	list-style-position: outside;
+	list-style-type: square;
+}
+
+
+
+/* Dotted hr */
+header hr, footer hr
+{
+	border-top: 3px dotted black;
+	border-bottom: 0px;
+}
+
+header, footer
+{
+	background-color: #d88b74;
+	font-family: Verdana, Helvetica, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+footer{
+	text-align: center;
+}
+
+.link_menu
+{
+	background-color: #f8dca9;
+	font-family: Verdana, Helvetica, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+}
+
+
+#Video video
+{
+	border-radius: 10px;
+}
+
+#LesPaul,
+#Strat 
+{
+	padding-top: 25px;
+	text-align: center;
+}
+
+#LesPaul img,
+#Strat img
+{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	border-radius: 25px;
+}
+
+
+#LesPaul ul
+{
+	display: inline-block;
+  	text-align: left;
+	list-style-position: inside;
+	padding-left: 5%;
+}
+
+#Strat ul
+{
+	display: inline-block;
+  	text-align: left;
+	list-style-position: inside;
+	padding-left: 25%;
+}
+
+#LesPaul h2
+{
+	font-weight: bold;
+	color: #4d0000;
+}
+
+#Strat h2
+{
+	font-weight: bold;
+	color: #804000;
+}
+
+
+/*indexGrid2*/
+#Home table, tr, td
+{
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+#Interests img
+{
+	border-radius: 10px;
+}
+
+#Home table caption
+{
+	font-weight: bold;
+}
